@@ -1,0 +1,16 @@
+.started{
+    display: flex;   
+    background-color: rgb(247,247,249);
+    .points{
+        flex: 1;
+        img{
+            width: 200px;
+            height: 200px;
+            padding: 30px;
+        }
+    }
+    .informed{
+        flex: 2;
+        padding: 30px;
+    }
+}

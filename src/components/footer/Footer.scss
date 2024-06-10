@@ -1,0 +1,73 @@
+.footer{
+    background-color: rgb(30,115,190);
+    height: 650px;
+    color: white;
+    
+
+    .sections{        
+        display: flex;        
+        justify-content: space-between;
+        padding: 40px;
+        gap: 10px;        
+        font-size: 16px;
+        
+
+        .aryshare{    
+            flex: 1;
+            p{
+                margin-left: 40px;
+                
+            }
+            ul{
+                margin-top: 10px;
+                list-style-type: none;
+                cursor: pointer;
+            }
+            
+        }
+        .learn{
+            flex: 1;
+            label{
+                margin-left: 40px;
+            }
+            ul{
+                list-style-type: none;
+                cursor: pointer;
+            }
+            
+        }
+        .integration{
+            flex: 1;
+            label{
+                margin-left: 40px;
+            }
+            ul{
+                list-style-type: none;
+                cursor: pointer;
+            }
+            
+        }
+    }
+    .compare{
+        padding: 40px;
+        label{
+           font-weight: bold;            
+        }
+        ul{
+            margin-top: 20px;
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            cursor: pointer;
+        }
+        button{
+            background-color: rgb(12,181,0);
+            border: none;
+            padding: 10px;
+            margin-top: 50px;
+            border-radius: 10px;
+            color: white;
+            width: 30%;
+        }
+    }
+}
